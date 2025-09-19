@@ -429,6 +429,17 @@ p {
     font-size: 1.2em;
 }
 
+.performers-inline {
+    margin-left: 16px;
+    /* 곡명과 연주자 사이 간격 */
+    font-size: 0.95rem;
+    /* 곡명보다 약간 작게 */
+    font-style: normal;
+    /* 이탤릭 해제 */
+    color: var(--muted);
+    /* 기존 보조 텍스트 색상 */
+}
+
 .song {
     font-weight: 700;
     /* 굵게 */
