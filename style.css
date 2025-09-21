@@ -447,6 +447,27 @@ p {
     /* 이탤릭 */
 }
 
+.encore-label {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 2px 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #fff;
+    background: var(--accent);
+    border-radius: 4px;
+    letter-spacing: 0.05em;
+}
+
+.program-divider {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 2em 0;
+    /* 위아래 여백 */
+    opacity: 0.6;
+    /* 살짝 은은하게 */
+}
+
 /* 아코디언 */
 .accordion {
     border: 1px solid var(--line);
